@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34031.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliderForms", "SlideFroms\SliderForms.csproj", "{3D355602-60F5-4022-95AC-7B366647A8DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTDIBoardDriver", "FTDIBoardDriver\FTDIBoardDriver.csproj", "{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTDIDriver", "FTDIDriver\FTDIDriver.csproj", "{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTDIService", "FTDIService\FTDIService\FTDIService.csproj", "{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideBaseForm", "SlideBaseForm\SlideBaseForm.csproj", "{6C4E7084-911E-4CC9-B29A-93553C0BAF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliderDriver", "SliderDriver\SliderDriver.csproj", "{7686EE34-7573-44A8-847A-A42066FDD178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyControl_3st", "..\..\..\NPI_SW_Team\MyControl\MyControl_3st\MyControl_3st.csproj", "{E330629A-50B5-4BB7-8538-469549BBC8EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IVIDriver", "IVIDriver\IVIDriver.csproj", "{419A9876-FF8F-4893-83A8-9C0F59874956}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D355602-60F5-4022-95AC-7B366647A8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D355602-60F5-4022-95AC-7B366647A8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D355602-60F5-4022-95AC-7B366647A8DD}.Debug|x64.ActiveCfg = Debug|x64
+		{3D355602-60F5-4022-95AC-7B366647A8DD}.Debug|x64.Build.0 = Debug|x64
+		{3D355602-60F5-4022-95AC-7B366647A8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D355602-60F5-4022-95AC-7B366647A8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D355602-60F5-4022-95AC-7B366647A8DD}.Release|x64.ActiveCfg = Release|x64
+		{3D355602-60F5-4022-95AC-7B366647A8DD}.Release|x64.Build.0 = Release|x64
+		{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}.Debug|x64.Build.0 = Debug|Any CPU
+		{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}.Release|x64.ActiveCfg = Release|Any CPU
+		{43DB5E74-4118-4D4D-9EBD-F5E79194E9B4}.Release|x64.Build.0 = Release|Any CPU
+		{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}.Debug|x64.Build.0 = Debug|Any CPU
+		{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}.Release|x64.ActiveCfg = Release|Any CPU
+		{164C842B-2FB6-4D3A-9C5F-8E79A24F6F75}.Release|x64.Build.0 = Release|Any CPU
+		{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF357493-EAD6-453F-AF2B-3E94E4F6E02F}.Release|x64.Build.0 = Release|Any CPU
+		{6C4E7084-911E-4CC9-B29A-93553C0BAF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4E7084-911E-4CC9-B29A-93553C0BAF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4E7084-911E-4CC9-B29A-93553C0BAF70}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6C4E7084-911E-4CC9-B29A-93553C0BAF70}.Debug|x64.Build.0 = Debug|Any CPU
+		{6C4E7084-911E-4CC9-B29A-93553C0BAF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4E7084-911E-4CC9-B29A-93553C0BAF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4E7084-911E-4CC9-B29A-93553C0BAF70}.Release|x64.ActiveCfg = Release|Any CPU
+		{6C4E7084-911E-4CC9-B29A-93553C0BAF70}.Release|x64.Build.0 = Release|Any CPU
+		{7686EE34-7573-44A8-847A-A42066FDD178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7686EE34-7573-44A8-847A-A42066FDD178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7686EE34-7573-44A8-847A-A42066FDD178}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7686EE34-7573-44A8-847A-A42066FDD178}.Debug|x64.Build.0 = Debug|Any CPU
+		{7686EE34-7573-44A8-847A-A42066FDD178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7686EE34-7573-44A8-847A-A42066FDD178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7686EE34-7573-44A8-847A-A42066FDD178}.Release|x64.ActiveCfg = Release|Any CPU
+		{7686EE34-7573-44A8-847A-A42066FDD178}.Release|x64.Build.0 = Release|Any CPU
+		{E330629A-50B5-4BB7-8538-469549BBC8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E330629A-50B5-4BB7-8538-469549BBC8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E330629A-50B5-4BB7-8538-469549BBC8EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E330629A-50B5-4BB7-8538-469549BBC8EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{E330629A-50B5-4BB7-8538-469549BBC8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E330629A-50B5-4BB7-8538-469549BBC8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E330629A-50B5-4BB7-8538-469549BBC8EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{E330629A-50B5-4BB7-8538-469549BBC8EA}.Release|x64.Build.0 = Release|Any CPU
+		{419A9876-FF8F-4893-83A8-9C0F59874956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419A9876-FF8F-4893-83A8-9C0F59874956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419A9876-FF8F-4893-83A8-9C0F59874956}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{419A9876-FF8F-4893-83A8-9C0F59874956}.Debug|x64.Build.0 = Debug|Any CPU
+		{419A9876-FF8F-4893-83A8-9C0F59874956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419A9876-FF8F-4893-83A8-9C0F59874956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419A9876-FF8F-4893-83A8-9C0F59874956}.Release|x64.ActiveCfg = Release|Any CPU
+		{419A9876-FF8F-4893-83A8-9C0F59874956}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34276AFB-ACEB-4CF3-8449-BADA7B359895}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs7.it.keysight.com/tfs/analyzers
+		SccProjectUniqueName0 = IVIDriver\\IVIDriver.csproj
+		SccProjectName0 = $/CID/Banjo/Slider/Slider/IVIDriver
+		SccAuxPath0 = https://tfs7.it.keysight.com/tfs/analyzers
+		SccLocalPath0 = IVIDriver
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

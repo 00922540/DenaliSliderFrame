@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+<register Name="PowerControl" Addr="0x21500" Group="CarrierBoard" IVIName="PowerControl" Size="32">
+    <SPI>
+      <finger id="0">Wyvern1_power_enable</finger>
+      <finger id="1">Wyvern2_power_enable</finger>
+      <finger id="2">Reserved</finger>
+      <finger id="3">Reserved</finger>
+      <finger id="4">Reserved</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">Reserved</finger>
+      <finger id="9">Reserved</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="Wyvern_1_EN">Wyvern1_power_enable</switch>
+      <switch Name="Wyvern_2_EN">Wyvern2_power_enable</switch>
+    </control>
+</register>
+   
+<register Name="WyvernFilter" Addr="0x21504" Group="CarrierBoard" IVIName="WyvernFilter" Size="32">
+    <SPI>
+      <finger id="0">Wyvern1_filter1</finger>
+      <finger id="1">Wyvern1_filter10</finger>
+      <finger id="2">Wyvern1_filter2</finger>
+      <finger id="3">Wyvern1_filter20</finger>
+      <finger id="4">Reserved</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">Reserved</finger>
+      <finger id="9">Reserved</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+	  <switch Name="U126">Wyvern1_filter1</switch>
+      <switch Name="U127">Wyvern1_filter10</switch>
+      <switch Name="U128">Wyvern1_filter2</switch>
+      <switch Name="U129">Wyvern1_filter20</switch>
+    </control>
+</register>
+
+<register Name="Pll3GAtt" Addr="0x21508" Group="CarrierBoard" IVIName="Pll3GAtt" Size="32">
+    <SPI>
+      <finger id="0">PLL_ATT_V1</finger>
+      <finger id="1">PLL_ATT_V2</finger>
+      <finger id="2">PLL_ATT_V3</finger>
+      <finger id="3">PLL_ATT_V4</finger>
+      <finger id="4">Reserved</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">Reserved</finger>
+      <finger id="9">Reserved</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="AT10">PLL_ATT_V1|PLL_ATT_V2|PLL_ATT_V3|PLL_ATT_V4</switch>
+    </control>
+</register>
+
+
+<register Name="Pll3GSel" Addr="0x2150C" Group="CarrierBoard" IVIName="Pll3GSel" Size="32">
+    <SPI>
+      <finger id="0">PLL_SEL1</finger>
+      <finger id="1">PLL_SEL2</finger>
+      <finger id="2">PLL_SEL3</finger>
+      <finger id="3">PLL_SEL4</finger>
+      <finger id="4">PLL_SEL5</finger>
+      <finger id="5">PLL_SEL6</finger>
+      <finger id="6">PLL_SEL7</finger>
+      <finger id="7">PLL_SEL8</finger>
+      <finger id="8">Reserved</finger>
+      <finger id="9">Reserved</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U93" Value="1:01|2:10">PLL_SEL1|PLL_SEL2</switch>
+      <switch Name="U94">PLL_SEL3|PLL_SEL4</switch>
+      <switch Name="U95">PLL_SEL5|PLL_SEL6</switch>
+      <switch Name="U96">PLL_SEL7|PLL_SEL8</switch>
+    </control>
+</register>
+
+
+
+</root>

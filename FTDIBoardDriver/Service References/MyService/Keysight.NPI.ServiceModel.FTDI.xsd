@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Http://Keysight.NPI.ServiceModel.FTDI" elementFormDefault="qualified" targetNamespace="Http://Keysight.NPI.ServiceModel.FTDI" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Init_FDTIDevice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Clock_select" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="SPI" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Init_FDTIDeviceResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Send_data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bit_length" type="xs:int" />
+        <xs:element minOccurs="0" name="buffer" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="VE" type="xs:int" />
+        <xs:element minOccurs="0" name="MSB" type="xs:int" />
+        <xs:element minOccurs="0" name="CS" type="xs:int" />
+        <xs:element minOccurs="0" name="Add_clock" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Send_dataResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Read_data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Write_buffer_bit_length" type="xs:int" />
+        <xs:element minOccurs="0" name="Write_buffer" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="Read_bit_length" type="xs:int" />
+        <xs:element minOccurs="0" name="VE" type="xs:int" />
+        <xs:element minOccurs="0" name="MSB" type="xs:int" />
+        <xs:element minOccurs="0" name="CS" type="xs:int" />
+        <xs:element minOccurs="0" name="Read_VE" type="xs:int" />
+        <xs:element minOccurs="0" name="Add_clock" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Read_dataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Read_dataResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FDTI_close">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FDTI_closeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

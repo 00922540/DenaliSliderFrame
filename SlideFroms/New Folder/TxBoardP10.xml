@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <register Name="Tx_PWR_CTRL" Group="TxBoard" IVIName="PowerControl" Size="32">
+    <SPI>
+      <finger id="0">P5V_EN</finger>
+      <finger id="1">P5p5V_EN</finger>
+      <finger id="2">HMC994_P_EN3</finger>
+      <finger id="3">HMC460_P_EN</finger>
+      <finger id="4">HMC994_P_EN1</finger>
+      <finger id="5">Switch_P_N_EN</finger>
+      <finger id="6">Switch_P_P3p3_EN</finger>
+      <finger id="7">HMC9XX_P_N2p5_EN</finger>
+      <finger id="8">MIXER_P_P2p5_EN</finger>
+      <finger id="9">TGA2227_EN_2</finger>
+      <finger id="10">TGA2227_LO_P_EN</finger>
+      <finger id="11">HMC460_EN_1</finger>
+      <finger id="12">HMC460_EN_2</finger>
+      <finger id="13">HMC994_EN_1</finger>
+      <finger id="14">HMC994_EN_2</finger>
+      <finger id="15">HMC994_EN_3</finger>
+      <finger id="16">HMC994_EN_4</finger>
+      <finger id="17">HMC994_EN_5</finger>
+      <finger id="18">HMC994_EN_6</finger>
+      <finger id="19">HMC994_EN_7</finger>
+      <finger id="20">HMC994_EN_8</finger>
+      <finger id="21">HMC994_VDD1_P_EN</finger>
+      <finger id="22">LHA_83_P9p0_EN</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U39">LHA_83_P9p0_EN</switch>
+      <switch Name="U131">HMC994_VDD1_P_EN</switch>
+      <switch Name="U154">HMC994_EN_8</switch>
+      <switch Name="U73">HMC994_EN_7</switch>
+      <switch Name="U119">HMC994_EN_6</switch>
+      <switch Name="U120">HMC994_EN_5</switch>
+      <switch Name="U121">HMC994_EN_4</switch>
+      <switch Name="U69">HMC994_EN_3</switch>
+      <switch Name="U112">HMC994_EN_2</switch>
+      <switch Name="U114">HMC994_EN_1</switch>
+      <switch Name="U158">HMC460_EN_2</switch>
+      <switch Name="U68">HMC460_EN_1</switch>
+      <switch Name="U160">TGA2227_LO_P_EN</switch>
+      <switch Name="U145">TGA2227_EN_2</switch>
+      <switch Name="U115">MIXER_P_P2p5_EN</switch>
+      <switch Name="U43">HMC9XX_P_N2p5_EN</switch>
+      <switch Name="U34">Switch_P_P3p3_EN</switch>
+      <switch Name="U42">Switch_P_N_EN</switch>
+      <switch Name="U129">HMC994_P_EN1</switch>
+      <switch Name="U117">HMC460_P_EN</switch>
+      <switch Name="U118">HMC994_P_EN3</switch>
+      <switch Name="U124">P5p5V_EN</switch>
+      <switch Name="U123">P5V_EN</switch>
+    </control>
+  </register>
+  <register Name="Tx_ATT_CTRL1" Group="TxBoard" IVIName="AttControl1" Size="32">
+    <SPI>
+      <finger id="0">AT5_AC_1</finger>
+      <finger id="1">AT5_AC_2</finger>
+      <finger id="2">AT5_AC_4</finger>
+      <finger id="3">AT5_AC_8</finger>
+      <finger id="4">AT5_AC_16</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">AT7_AC_1</finger>
+      <finger id="9">AT7_AC_2</finger>
+      <finger id="10">AT7_AC_4</finger>
+      <finger id="11">AT7_AC_8</finger>
+      <finger id="12">AT7_AC_16</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">AT8_AC_1</finger>
+      <finger id="17">AT8_AC_2</finger>
+      <finger id="18">AT8_AC_4</finger>
+      <finger id="19">AT8_AC_8</finger>
+      <finger id="20">AT8_AC_16</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">AT9_AC_1</finger>
+      <finger id="25">AT9_AC_2</finger>
+      <finger id="26">AT9_AC_4</finger>
+      <finger id="27">AT9_AC_8</finger>
+      <finger id="28">AT9_AC_16</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="AT9">AT9_AC_16|AT9_AC_8|AT9_AC_4|AT9_AC_2|AT9_AC_1</switch>
+      <switch Name="AT8">AT8_AC_16|AT8_AC_8|AT8_AC_4|AT8_AC_2|AT8_AC_1</switch>
+      <switch Name="AT7">AT7_AC_16|AT7_AC_8|AT7_AC_4|AT7_AC_2|AT7_AC_1</switch>
+      <switch Name="AT5">AT5_AC_16|AT5_AC_8|AT5_AC_4|AT5_AC_2|AT5_AC_1</switch>
+    </control>
+  </register>
+  <register Name="Tx_RF_CTRL1" Group="TxBoard" IVIName="RfControl1" Size="32">
+    <SPI>
+      <finger id="0">U81_SC_V1</finger>
+      <finger id="1">U81_SC_V2</finger>
+      <finger id="2">U86_SC_V1</finger>
+      <finger id="3">U86_SC_V2</finger>
+      <finger id="4">U87_SC_V1</finger>
+      <finger id="5">U87_SC_V2</finger>
+      <finger id="6">U88_SC_V1</finger>
+      <finger id="7">U88_SC_V2</finger>
+      <finger id="8">U89_SC_V1</finger>
+      <finger id="9">U89_SC_V2</finger>
+      <finger id="10">U90_SC_V1</finger>
+      <finger id="11">U90_SC_V2</finger>
+      <finger id="12">U137_SW_V1</finger>
+      <finger id="13">U137_SW_V2</finger>
+      <finger id="14">U138_SW_V1</finger>
+      <finger id="15">U138_SW_V2</finger>
+      <finger id="16">U82_SC_V1</finger>
+      <finger id="17">U82_SC_V2</finger>
+      <finger id="18">U83_SC_V1</finger>
+      <finger id="19">U83_SC_V2</finger>
+      <finger id="20">U84_SC_V1</finger>
+      <finger id="21">U84_SC_V2</finger>
+      <finger id="22">U85_SC_V1</finger>
+      <finger id="23">U85_SC_V2</finger>
+      <finger id="24">U91_SC_V1</finger>
+      <finger id="25">U91_SC_V2</finger>
+      <finger id="26">U92_SC_V1</finger>
+      <finger id="27">U92_SC_V2</finger>
+      <finger id="28">U93_SC_V1</finger>
+      <finger id="29">U93_SC_V2</finger>
+      <finger id="30">U139_SW_V1</finger>
+      <finger id="31">U139_SW_V2</finger>
+    </SPI>
+    <control>
+      <switch Name="U139">U139_SW_V2|U139_SW_V1</switch>
+      <switch Name="U93">U93_SC_V2|U93_SC_V1</switch>
+      <switch Name="U92">U92_SC_V2|U92_SC_V1</switch>
+      <switch Name="U91">U91_SC_V2|U91_SC_V1</switch>
+      <switch Name="U85">U85_SC_V2|U85_SC_V1</switch>
+      <switch Name="U84">U84_SC_V2|U84_SC_V1</switch>
+      <switch Name="U83">U83_SC_V2|U83_SC_V1</switch>
+      <switch Name="U82">U82_SC_V2|U82_SC_V1</switch>
+      <switch Name="U138">U138_SW_V2|U138_SW_V1</switch>
+      <switch Name="U137">U137_SW_V2|U137_SW_V1</switch>
+      <switch Name="U90">U90_SC_V2|U90_SC_V1</switch>
+      <switch Name="U89">U89_SC_V2|U89_SC_V1</switch>
+      <switch Name="U88">U88_SC_V2|U88_SC_V1</switch>
+      <switch Name="U87">U87_SC_V2|U87_SC_V1</switch>
+      <switch Name="U86">U86_SC_V2|U86_SC_V1</switch>
+      <switch Name="U81">U81_SC_V2|U81_SC_V1</switch>
+    </control>
+  </register>
+  <register Name="Tx_RF_CTRL2" Group="TxBoard" IVIName="RfControl2" Size="32">
+    <SPI>
+      <finger id="0">U12_SC</finger>
+      <finger id="1">U150_SC</finger>
+      <finger id="2">U151_SC</finger>
+      <finger id="3">U44_SC</finger>
+      <finger id="4">U97_SC</finger>
+      <finger id="5">U45_SC</finger>
+      <finger id="6">U46_SC</finger>
+      <finger id="7">U47_SC</finger>
+      <finger id="8">U48_SC</finger>
+      <finger id="9">U63_SC</finger>
+      <finger id="10">U64_SC</finger>
+      <finger id="11">U51_SC</finger>
+      <finger id="12">U52_SC</finger>
+      <finger id="13">U53_SC</finger>
+      <finger id="14">U54_SC</finger>
+      <finger id="15">U56_SC</finger>
+      <finger id="16">U57_SC</finger>
+      <finger id="17">U58_SC</finger>
+      <finger id="18">U143_SW_C</finger>
+      <finger id="19">U144_SW_C</finger>
+      <finger id="20">U158_SC</finger>
+      <finger id="21">U49_SC</finger>
+      <finger id="22">U50_SC</finger>
+      <finger id="23">U149_SC</finger>
+      <finger id="24">U140_SW_V1</finger>
+      <finger id="25">U140_SW_V2</finger>
+      <finger id="26">U141_SW_V1</finger>
+      <finger id="27">U141_SW_V2</finger>
+      <finger id="28">U142_SW_V1</finger>
+      <finger id="29">U142_SW_V2</finger>
+      <finger id="30">U98_SC_V1</finger>
+      <finger id="31">U98_SC_V2</finger>
+    </SPI>
+    <control>
+      <switch Name="U98">U98_SC_V2|U98_SC_V1</switch>
+      <switch Name="U141">U141_SW_V2|U141_SW_V1</switch>
+	  <switch Name="U142">U142_SW_V2|U142_SW_V1</switch>
+      <switch Name="U140">U140_SW_V2|U140_SW_V1</switch>
+      <switch Name="U149">U149_SC</switch>
+      <switch Name="U50">U50_SC</switch>
+      <switch Name="U49">U49_SC</switch>
+      <switch Name="U158">U158_SC</switch>
+      <switch Name="U144">U144_SW_C</switch>
+      <switch Name="U143">U143_SW_C</switch>
+      <switch Name="U58">U58_SC</switch>
+      <switch Name="U57">U57_SC</switch>
+      <switch Name="U56">U56_SC</switch>
+      <switch Name="U54">U54_SC</switch>
+      <switch Name="U53">U53_SC</switch>
+      <switch Name="U52">U52_SC</switch>
+      <switch Name="U51">U51_SC</switch>
+      <switch Name="U64">U64_SC</switch>
+      <switch Name="U63">U63_SC</switch>
+      <switch Name="U48">U48_SC</switch>
+      <switch Name="U47">U47_SC</switch>
+      <switch Name="U46">U46_SC</switch>
+      <switch Name="U45">U45_SC</switch>
+      <switch Name="U97">U97_SC</switch>
+      <switch Name="U44">U44_SC</switch>
+      <switch Name="U151">U151_SC</switch>
+      <switch Name="U150">U150_SC</switch>
+      <switch Name="U12">U12_SC</switch>
+    </control>
+  </register>
+</root>

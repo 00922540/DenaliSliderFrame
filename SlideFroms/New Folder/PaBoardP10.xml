@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <register Name="Pa_PWR_CTRL" Group="PABoard" IVIName="PowerControl"  Size="32">
+    <SPI>
+      <finger id="0">P10V_RX_EN</finger>
+      <finger id="1">P6V_RX_EN</finger>
+      <finger id="2">P10V_TX_EN</finger>
+      <finger id="3">P6V_TX_EN</finger>
+      <finger id="4">P11V_PA_EN</finger>
+      <finger id="5">-</finger>
+      <finger id="6">P5V5A_PWR_ENL</finger>
+      <finger id="7">N5VA_PWR_ENH</finger>
+      <finger id="8">N6V_EN</finger>
+      <finger id="9">LB_AMP_PWR_ENH</finger>
+      <finger id="10">H994_U17_PWR_ENH</finger>
+      <finger id="11">H994_U18_PWR_ENH</finger>
+      <finger id="12">H994_U59_PWR_ENH</finger>
+      <finger id="13">H994_U60_PWR_ENH</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">-</finger>
+      <finger id="17">-</finger>
+      <finger id="18">-</finger>
+      <finger id="19">-</finger>
+      <finger id="20">-</finger>
+      <finger id="21">-</finger>
+      <finger id="22">-</finger>
+      <finger id="23">-</finger>
+      <finger id="24">-</finger>
+      <finger id="25">-</finger>
+      <finger id="26">-</finger>
+      <finger id="27">-</finger>
+      <finger id="28">-</finger>
+      <finger id="29">-</finger>
+      <finger id="30">-</finger>
+      <finger id="31">-</finger>
+    </SPI>
+    <control>
+      <switch Name="U60">H994_U60_PWR_ENH</switch>
+      <switch Name="U59">H994_U59_PWR_ENH</switch>
+      <switch Name="U18">H994_U18_PWR_ENH</switch>
+      <switch Name="U17">H994_U17_PWR_ENH</switch>
+      <switch Name="U24">LB_AMP_PWR_ENH</switch>
+      <switch Name="U76">N6V_EN</switch>
+      <switch Name="U79">N5VA_PWR_ENH</switch>
+      <switch Name="U64">P5V5A_PWR_ENL</switch>
+      <switch Name="U63">P11V_PA_EN</switch>
+      <switch Name="U71">P6V_TX_EN</switch>
+      <switch Name="U69">P10V_TX_EN</switch>
+      <switch Name="U70">P6V_RX_EN</switch>
+      <switch Name="U62">P10V_RX_EN</switch>
+    </control>
+  </register>
+  <register Name="Pa_AUX_CTRL" Group="PABoard" IVIName="AuxControl"  Size="32">
+    <SPI>
+      <finger id="0">CLK_SEL</finger>
+      <finger id="1">INT_MOD</finger>
+      <finger id="2">INT_CLR</finger>
+      <finger id="3">FLASH_M</finger>
+      <finger id="4">Reserved</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">Reserved</finger>
+      <finger id="9">Reserved</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+    </control>
+  </register>
+  <register Name="Pa_ATT_CTRL1" Group="PABoard" IVIName="AttControl1"  Size="32">
+    <SPI>
+      <finger id="0">DATT_AT1_0P5DB</finger>
+      <finger id="1">DATT_AT1_1DB</finger>
+      <finger id="2">DATT_AT1_2DB</finger>
+      <finger id="3">DATT_AT1_4DB</finger>
+      <finger id="4">DATT_AT1_8DB</finger>
+      <finger id="5">DATT_AT1_16DB</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">DATT_AT2_0P5DB</finger>
+      <finger id="9">DATT_AT2_1DB</finger>
+      <finger id="10">DATT_AT2_2DB</finger>
+      <finger id="11">DATT_AT2_4DB</finger>
+      <finger id="12">DATT_AT2_8DB</finger>
+      <finger id="13">DATT_AT2_16DB</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="AT2">DATT_AT2_16DB|DATT_AT2_8DB|DATT_AT2_4DB|DATT_AT2_2DB|DATT_AT2_1DB|DATT_AT2_0P5DB</switch>
+      <switch Name="AT1">DATT_AT1_16DB|DATT_AT1_8DB|DATT_AT1_4DB|DATT_AT1_2DB|DATT_AT1_1DB|DATT_AT1_0P5DB</switch>
+    </control>
+  </register>
+  <register Name="Pa_ATT_CTRL2" Group="PABoard" IVIName="AttControl2"  Size="32">
+    <SPI>
+      <finger id="0">DATT_AT6_1DB</finger>
+      <finger id="1">DATT_AT6_2DB</finger>
+      <finger id="2">DATT_AT6_4DB</finger>
+      <finger id="3">DATT_AT6_8DB</finger>
+      <finger id="4">DATT_AT6_16DB</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">DATT_AT7_1DB</finger>
+      <finger id="9">DATT_AT7_2DB</finger>
+      <finger id="10">DATT_AT7_4DB</finger>
+      <finger id="11">DATT_AT7_8DB</finger>
+      <finger id="12">DATT_AT7_16DB</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">DATT_AT8_1DB</finger>
+      <finger id="17">DATT_AT8_2DB</finger>
+      <finger id="18">DATT_AT8_4DB</finger>
+      <finger id="19">DATT_AT8_8DB</finger>
+      <finger id="20">DATT_AT8_16DB</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="AT8">DATT_AT8_16DB|DATT_AT8_8DB|DATT_AT8_4DB|DATT_AT8_2DB|DATT_AT8_1DB</switch>
+      <switch Name="AT7">DATT_AT7_16DB|DATT_AT7_8DB|DATT_AT7_4DB|DATT_AT7_2DB|DATT_AT7_1DB</switch>
+      <switch Name="AT6">DATT_AT6_16DB|DATT_AT6_8DB|DATT_AT6_4DB|DATT_AT6_2DB|DATT_AT6_1DB</switch>
+    </control>
+  </register>
+  <register Name="Pa_RF_CTRL1" Group="PABoard" IVIName="RfControl1"  Size="32">
+    <SPI>
+      <finger id="0">Reserved</finger>
+      <finger id="1">SW_U1_CTRL</finger>
+      <finger id="2">SW_U2_CTRL</finger>
+      <finger id="3">SW_U3_CTRL</finger>
+      <finger id="4">SW_U4_CTRL</finger>
+      <finger id="5">SW_U5_CTRL</finger>
+      <finger id="6">SW_U6_CTRL</finger>
+      <finger id="7">SW_U7_CTRL</finger>
+      <finger id="8">SW_U8_CTRL</finger>
+      <finger id="9">SW_U9_CTRL</finger>
+      <finger id="10">SW_U10_CTRL</finger>
+      <finger id="11">SW_U11_CTRL</finger>
+      <finger id="12">SW_U12_CTRL</finger>
+      <finger id="13">SW_U85_CTRL</finger>
+      <finger id="14">SW_U88_CTRL</finger>
+      <finger id="15">SW_U89_CTRL</finger>
+      <finger id="16">SW_U92_CTRL</finger>
+      <finger id="17">SW_U93_CTRL</finger>
+      <finger id="18">U90_SC</finger>
+      <finger id="19">SW_U19_CTRL</finger>
+      <finger id="20">SW_U20_CTRL</finger>
+      <finger id="21">SW_U21_CTRL</finger>
+      <finger id="22">SW_U22_CTRL</finger>
+      <finger id="23">SW_U23_CTRL</finger>
+      <finger id="24">U91_SC</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U91">U91_SC</switch>
+      <switch Name="U23">SW_U23_CTRL</switch>
+      <switch Name="U22">SW_U22_CTRL</switch>
+      <switch Name="U21">SW_U21_CTRL</switch>
+      <switch Name="U20">SW_U20_CTRL</switch>
+      <switch Name="U19">SW_U19_CTRL</switch>
+      <switch Name="U90">U90_SC</switch>
+      <switch Name="U93">SW_U93_CTRL</switch>
+      <switch Name="U92">SW_U92_CTRL</switch>
+      <switch Name="U89">SW_U89_CTRL</switch>
+      <switch Name="U88">SW_U88_CTRL</switch>
+      <switch Name="U85">SW_U85_CTRL</switch>
+      <switch Name="U12">SW_U12_CTRL</switch>
+      <switch Name="U11">SW_U11_CTRL</switch>
+      <switch Name="U10">SW_U10_CTRL</switch>
+      <switch Name="U9">SW_U9_CTRL</switch>
+      <switch Name="U8">SW_U8_CTRL</switch>
+      <switch Name="U7">SW_U7_CTRL</switch>
+      <switch Name="U6">SW_U6_CTRL</switch>
+      <switch Name="U5">SW_U5_CTRL</switch>
+      <switch Name="U4">SW_U4_CTRL</switch>
+      <switch Name="U3">SW_U3_CTRL</switch>
+      <switch Name="U2">SW_U2_CTRL</switch>
+      <switch Name="U1">SW_U1_CTRL</switch>
+    </control>
+  </register>
+  <register Name="Pa_RF_CTRL2" Group="PABoard" IVIName="RfControl2"  Size="32">
+    <SPI>
+      <finger id="0">SW_U13_V1</finger>
+      <finger id="1">SW_U13_V2</finger>
+      <finger id="2">SW_U14_V1</finger>
+      <finger id="3">SW_U14_V2</finger>
+      <finger id="4">SW_U25_V1</finger>
+      <finger id="5">SW_U25_V2</finger>
+      <finger id="6">SW_U26_V1</finger>
+      <finger id="7">SW_U26_V2</finger>
+      <finger id="8">SW_U84_V1</finger>
+      <finger id="9">SW_U84_V2</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U84">SW_U84_V2|SW_U84_V1</switch>
+      <switch Name="U26">SW_U26_V2|SW_U26_V1</switch>
+      <switch Name="U25">SW_U25_V2|SW_U25_V1</switch>
+      <switch Name="U14">SW_U14_V2|SW_U14_V1</switch>
+      <switch Name="U13">SW_U13_V2|SW_U13_V1</switch>
+    </control>
+  </register>
+</root>

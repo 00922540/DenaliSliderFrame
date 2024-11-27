@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <register Name="Tx_ATT_CTRL1" Group="TxBoard" IVIName="AttControl1" Size="32">
+    <SPI>
+      <finger id="0">AT5_AC_1</finger>
+      <finger id="1">AT5_AC_2</finger>
+      <finger id="2">AT5_AC_4</finger>
+      <finger id="3">AT5_AC_8</finger>
+      <finger id="4">AT5_AC_16</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">AT7_AC_1</finger>
+      <finger id="9">AT7_AC_2</finger>
+      <finger id="10">AT7_AC_4</finger>
+      <finger id="11">AT7_AC_8</finger>
+      <finger id="12">AT7_AC_16</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">AT8_AC_1</finger>
+      <finger id="17">AT8_AC_2</finger>
+      <finger id="18">AT8_AC_4</finger>
+      <finger id="19">AT8_AC_8</finger>
+      <finger id="20">AT8_AC_16</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">AT9_AC_1</finger>
+      <finger id="25">AT9_AC_2</finger>
+      <finger id="26">AT9_AC_4</finger>
+      <finger id="27">AT9_AC_8</finger>
+      <finger id="28">AT9_AC_16</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="AT9" Related="AT9_AC_16|AT9_AC_8|AT9_AC_4|AT9_AC_2|AT9_AC_1"></switch>
+      <switch Name="AT8" Related="AT8_AC_16|AT8_AC_8|AT8_AC_4|AT8_AC_2|AT8_AC_1"></switch>
+    </control>
+  </register>
+  <register Name="Tx_RF_CTRL1" Group="TxBoard" IVIName="RfControl1" Size="32">
+    <SPI>
+      <finger id="0">U81_SC_V1</finger>
+      <finger id="1">U81_SC_V2</finger>
+      <finger id="2">U86_SC_V1</finger>
+      <finger id="3">U86_SC_V2</finger>
+      <finger id="4">U87_SC_V1</finger>
+      <finger id="5">U87_SC_V2</finger>
+      <finger id="6">U88_SC_V1</finger>
+      <finger id="7">U88_SC_V2</finger>
+      <finger id="8">U89_SC_V1</finger>
+      <finger id="9">U89_SC_V2</finger>
+      <finger id="10">U90_SC_V1</finger>
+      <finger id="11">U90_SC_V2</finger>
+      <finger id="12">U137_SW_V1</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">U138_SW_V1</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">U82_SC_V1</finger>
+      <finger id="17">U82_SC_V2</finger>
+      <finger id="18">U83_SC_V1</finger>
+      <finger id="19">U83_SC_V2</finger>
+      <finger id="20">U84_SC_V1</finger>
+      <finger id="21">U84_SC_V2</finger>
+      <finger id="22">U85_SC_V1</finger>
+      <finger id="23">U85_SC_V2</finger>
+      <finger id="24">U91_SC_V1</finger>
+      <finger id="25">U91_SC_V2</finger>
+      <finger id="26">U92_SC_V1</finger>
+      <finger id="27">U92_SC_V2</finger>
+      <finger id="28">U93_SC_V1</finger>
+      <finger id="29">U93_SC_V2</finger>
+      <finger id="30">U139_SW_V1</finger>
+      <finger id="31">U139_SW_V2</finger>
+    </SPI>
+    <control>
+      <switch Name="U139" Related="U139_SW_V2|U139_SW_V1">11,00,10,01</switch>
+      <switch Name="U138" Related="U138_SW_V1"></switch>
+    </control>
+  </register>
+  
+</root>

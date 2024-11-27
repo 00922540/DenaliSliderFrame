@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <register Name="Mul_PWR_CTRL" Size="32" Group="MulBoard" IVIName="PowerControl">
+    <SPI>
+      <finger id="0">P3V3VA_SW1_EN</finger>
+      <finger id="1">P3V3VA_SW2_EN</finger>
+      <finger id="2">P3V3VA_2LO_EN</finger>
+      <finger id="3">N3V3VA_SW1_EN</finger>
+      <finger id="4">N3V3VA_SW2_EN</finger>
+      <finger id="5">N2V5VA_SW1_EN</finger>
+      <finger id="6">N2V5VA_SW2_EN</finger>
+      <finger id="7">N2V5VA_2LO_EN</finger>
+      <finger id="8">P5V2_AMP1_EN</finger>
+      <finger id="9">P5V2_AMP2_EN</finger>
+      <finger id="10">P5V2_2LO_EN</finger>
+      <finger id="11">P5V2_19200_EN</finger>
+      <finger id="12">-</finger>
+      <finger id="13">-</finger>
+      <finger id="14">-</finger>
+      <finger id="15">-</finger>
+      <finger id="16">-</finger>
+      <finger id="17">-</finger>
+      <finger id="18">-</finger>
+      <finger id="19">-</finger>
+      <finger id="20">-</finger>
+      <finger id="21">-</finger>
+      <finger id="22">-</finger>
+      <finger id="23">-</finger>
+      <finger id="24">-</finger>
+      <finger id="25">-</finger>
+      <finger id="26">-</finger>
+      <finger id="27">-</finger>
+      <finger id="28">-</finger>
+      <finger id="29">-</finger>
+      <finger id="30">-</finger>
+      <finger id="31">-</finger>
+    </SPI>
+    <control>
+      <switch Name="U122">P5V2_19200_EN</switch>
+      <switch Name="U68">P5V2_2LO_EN</switch>
+      <switch Name="U67">P5V2_AMP2_EN</switch>
+      <switch Name="U66">P5V2_AMP1_EN</switch>
+      <switch Name="U65">N2V5VA_2LO_EN</switch>
+      <switch Name="U64">N2V5VA_SW2_EN</switch>
+      <switch Name="U63">N2V5VA_SW1_EN</switch>
+      <switch Name="U61">N3V3VA_SW2_EN</switch>
+      <switch Name="U60">N3V3VA_SW1_EN</switch>
+      <switch Name="U59">P3V3VA_2LO_EN</switch>
+      <switch Name="U58">P3V3VA_SW2_EN</switch>
+      <switch Name="U57">P3V3VA_SW1_EN</switch>
+    </control>
+  </register>
+  <register Name="Mul_AUX_CTRL" Size="32"  Group="MulBoard" IVIName="AuxControl">
+    <SPI>
+      <finger id="0">CLK_SEL</finger>
+      <finger id="1">INT_MOD</finger>
+      <finger id="2">INT_CLR</finger>
+      <finger id="3">FLASH_M</finger>
+      <finger id="4">Reserved</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">Reserved</finger>
+      <finger id="9">Reserved</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+    </control>
+  </register>
+  <register Name="Mul_RX_LO_CTRL" Size="32"  Group="MulBoard" IVIName="RxLoControl">
+    <SPI>
+      <finger id="0">ATT51_0V5</finger>
+      <finger id="1">ATT51_1</finger>
+      <finger id="2">ATT51_2</finger>
+      <finger id="3">ATT51_4</finger>
+      <finger id="4">ATT51_8</finger>
+      <finger id="5">ATT51_16</finger>
+      <finger id="6">Hi_Low_select1</finger>
+      <finger id="7">Low_Iso_select1</finger>
+      <finger id="8">ATT1_0V5</finger>
+      <finger id="9">ATT1_1</finger>
+      <finger id="10">ATT1_2</finger>
+      <finger id="11">ATT1_4</finger>
+      <finger id="12">ATT1_8</finger>
+      <finger id="13">ATT1_16</finger>
+      <finger id="14">SW5_SEL</finger>
+      <finger id="15">SW6_SEL</finger>
+      <finger id="16">T6GHz_SW1_1</finger>
+      <finger id="17">T6GHz_ONOFF1</finger>
+      <finger id="18">T6GHz_ONOFF2</finger>
+      <finger id="19">T6GHz_ONOFF5</finger>
+      <finger id="20">T6GHz_ONOFF6</finger>
+      <finger id="21">FILTER_SEL_1</finger>
+      <finger id="22">FILTER_SEL_2</finger>
+      <finger id="23">FILTER_SEL_3</finger>
+      <finger id="24">FILTER_SEL_4</finger>
+      <finger id="25">SW7_SEL1</finger>
+      <finger id="26">SW7_SEL2</finger>
+      <finger id="27">SW8_SEL1</finger>
+      <finger id="28">SW8_SEL2</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U44">SW8_SEL2|SW8_SEL1</switch>
+      <switch Name="U43">SW7_SEL2|SW7_SEL1</switch>
+      <switch Name="U6">FILTER_SEL_4|FILTER_SEL_3</switch>
+      <switch Name="U5">FILTER_SEL_2|FILTER_SEL_1</switch>
+      <switch Name="U120">T6GHz_ONOFF6|T6GHz_ONOFF5</switch>
+      <switch Name="U118">T6GHz_ONOFF2|T6GHz_ONOFF1</switch>
+      <switch Name="U112">T6GHz_SW1_1</switch>
+      <switch Name="U101">SW6_SEL</switch>
+      <switch Name="U31">SW5_SEL</switch>
+      <switch Name="AT1">ATT1_16|ATT1_8|ATT1_4|ATT1_2|ATT1_1|ATT1_0V5</switch>
+      <switch Name="U2">Low_Iso_select1</switch>
+      <switch Name="U1">Hi_Low_select1</switch>
+      <switch Name="AT51">ATT51_16|ATT51_8|ATT51_4|ATT51_2|ATT51_1|ATT51_0V5</switch>
+    </control>
+  </register>
+  <register Name="Mul_TX_LO_CTRL" Size="32" Group="MulBoard" IVIName="TxLoControl">
+    <SPI>
+      <finger id="0">ATT52_0V5</finger>
+      <finger id="1">ATT52_1</finger>
+      <finger id="2">ATT52_2</finger>
+      <finger id="3">ATT52_4</finger>
+      <finger id="4">ATT52_8</finger>
+      <finger id="5">ATT52_16</finger>
+      <finger id="6">Hi_Low_select2</finger>
+      <finger id="7">Low_Iso_select2</finger>
+      <finger id="8">ATT2_0V5</finger>
+      <finger id="9">ATT2_1</finger>
+      <finger id="10">ATT2_2</finger>
+      <finger id="11">ATT2_4</finger>
+      <finger id="12">ATT2_8</finger>
+      <finger id="13">ATT2_16</finger>
+      <finger id="14">SW5_2_SEL</finger>
+      <finger id="15">SW6_2_SEL</finger>
+      <finger id="16">T6GHz_SW1_2</finger>
+      <finger id="17">T6GHz_ONOFF3</finger>
+      <finger id="18">T6GHz_ONOFF4</finger>
+      <finger id="19">T6GHz_ONOFF7</finger>
+      <finger id="20">T6GHz_ONOFF8</finger>
+      <finger id="21">FILTER_SEL2_1</finger>
+      <finger id="22">FILTER_SEL2_2</finger>
+      <finger id="23">FILTER_SEL2_3</finger>
+      <finger id="24">FILTER_SEL2_4</finger>
+      <finger id="25">SW7_2_SEL1</finger>
+      <finger id="26">SW7_2_SEL2</finger>
+      <finger id="27">SW8_2_SEL1</finger>
+      <finger id="28">SW8_2_SEL2</finger>
+      <finger id="29">SW70_SEL</finger>
+      <finger id="30">SW71_SEL</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U124">SW71_SEL</switch>
+      <switch Name="U123">SW70_SEL</switch>
+      <switch Name="U47">SW8_2_SEL2|SW8_2_SEL1</switch>
+      <switch Name="U46">SW7_2_SEL2|SW7_2_SEL1</switch>
+      <switch Name="U8">FILTER_SEL2_4|FILTER_SEL2_3</switch>
+      <switch Name="U7">FILTER_SEL2_2|FILTER_SEL2_1</switch>
+      <switch Name="U121">T6GHz_ONOFF8|T6GHz_ONOFF7</switch>
+      <switch Name="U119">T6GHz_ONOFF4|T6GHz_ONOFF3</switch>
+      <switch Name="U38">T6GHz_SW1_2</switch>
+      <switch Name="U102">SW6_2_SEL</switch>
+      <switch Name="U34">SW5_2_SEL</switch>
+      <switch Name="AT2">ATT2_16|ATT2_8|ATT2_4|ATT2_2|ATT2_1|ATT2_0V5</switch>
+      <switch Name="U4">Low_Iso_select2</switch>
+      <switch Name="U3">Hi_Low_select2</switch>
+      <switch Name="AT52">ATT52_16|ATT52_8|ATT52_4|ATT52_2|ATT52_1|ATT52_0V5</switch>
+    </control>
+  </register>
+  <register Name="Mul_CLK_CH_CTRL" Size="32" Group="MulBoard" IVIName="ClockChannelControl">
+    <SPI>
+      <finger id="0">T2V4GHz_1dB</finger>
+      <finger id="1">T2V4GHz_2dB</finger>
+      <finger id="2">T2V4GHz_4dB</finger>
+      <finger id="3">T2V4GHz_8dB</finger>
+      <finger id="4">T2V4GHz_ISO_1</finger>
+      <finger id="5">T2V4GHz_ISO_2</finger>
+      <finger id="6">T2V4GHz_SW1</finger>
+      <finger id="7">T2V4GHz_SW2</finger>
+      <finger id="8">T4V8GHz_SW1</finger>
+      <finger id="9">T4V8GHz_SW2</finger>
+      <finger id="10">T3000_SEL3</finger>
+      <finger id="11">T3000_SEL4</finger>
+      <finger id="12">T4V8GHz_CTRL</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U82">T4V8GHz_CTRL</switch>
+      <switch Name="U78">T3000_SEL4|T3000_SEL3</switch>
+      <switch Name="U77">T4V8GHz_SW2|T4V8GHz_SW1</switch>
+      <switch Name="U76">T2V4GHz_SW2|T2V4GHz_SW1</switch>
+      <switch Name="U75">T2V4GHz_ISO_2|T2V4GHz_ISO_1</switch>
+      <switch Name="AT57">T2V4GHz_8dB|T2V4GHz_4dB|T2V4GHz_2dB|T2V4GHz_1dB</switch>
+    </control>
+  </register>
+</root>

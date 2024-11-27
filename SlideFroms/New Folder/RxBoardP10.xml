@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <register Name="Rx_PWR_CTRL" Group="RxBoard" IVIName="PowerControl"  Size="32">
+    <SPI>
+      <finger id="0">C_Rx_All_Amp_EN</finger>
+      <finger id="1">C_Rx_all_Amp3_EN</finger>
+      <finger id="2">C_Rx_HBand3_4_Amp_EN</finger>
+      <finger id="3">C_Rx_HBand1_2_Amp_EN</finger>
+      <finger id="4">C_Rx_PreH9942_EN</finger>
+      <finger id="5">C_Rx_LB_LOAMP_EN</finger>
+      <finger id="6">C_Rx_HB_LOAMP_EN</finger>
+      <finger id="7">RX_N5VA_EN_H</finger>
+      <finger id="8">RX_P5.5VA_IF_EN_H</finger>
+      <finger id="9">Rx_N2.5VA_LO_EN_H</finger>
+      <finger id="10">Rx_P3.3VA_LO_EN_H</finger>
+      <finger id="11">Rx_N2.5VA_IF_EN_H</finger>
+      <finger id="12">Rx_P3.3VA_IF_EN_H</finger>
+      <finger id="13">Rx_N2.5VA_RF_LF_EN_H</finger>
+      <finger id="14">Rx_N3.3VA_RF_EN_H</finger>
+      <finger id="15">Rx_P3.3VA_RF_LF_EN_H</finger>
+      <finger id="16">Rx_P3.3VA_RF_EN_H_Sub</finger>
+      <finger id="17">Rx_N2.5VA_RF_EN_H_Sub</finger>
+      <finger id="18">Rx_N3.3VA_RF_EN_H_Sub</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U92">Rx_N3.3VA_RF_EN_H_Sub</switch>
+      <switch Name="U13">Rx_N2.5VA_RF_EN_H_Sub</switch>
+      <switch Name="U11">Rx_P3.3VA_RF_EN_H_Sub</switch>
+	  <switch Name="U20">Rx_P3.3VA_RF_LF_EN_H</switch>
+      <switch Name="U23">Rx_N3.3VA_RF_EN_H</switch>
+      <switch Name="U26">Rx_N2.5VA_RF_LF_EN_H</switch>
+      <switch Name="U21">Rx_P3.3VA_IF_EN_H</switch>
+      <switch Name="U25">Rx_N2.5VA_IF_EN_H</switch>
+      <switch Name="U19">RX_P5.5VA_IF_EN_H</switch>
+	  <switch Name="U110">RX_N5VA_EN_H</switch>
+      <switch Name="U31">C_Rx_HB_LOAMP_EN</switch>
+      <switch Name="U33">C_Rx_LB_LOAMP_EN</switch>
+      <switch Name="U35">C_Rx_PreH9942_EN</switch>
+      <switch Name="U36">C_Rx_HBand1_2_Amp_EN</switch>
+      <switch Name="U18">C_Rx_HBand3_4_Amp_EN</switch>
+      <switch Name="U37">C_Rx_all_Amp3_EN</switch>
+      <switch Name="U39">C_Rx_All_Amp_EN</switch>
+    </control>
+  </register>
+  <register Name="Rx_ABUS_CTRL" Group="RxBoard" IVIName="ABusControl"  Size="32">
+    <SPI>
+      <finger id="0">ADG1406_A0</finger>
+      <finger id="1">ADG1406_A1</finger>
+      <finger id="2">ADG1406_A2</finger>
+      <finger id="3">ADG1406_A3</finger>
+      <finger id="4">Reserved</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">Reserved</finger>
+      <finger id="9">Reserved</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U9">ADG1406_A3|ADG1406_A2|ADG1406_A1|ADG1406_A0</switch>
+    </control>
+  </register>
+  <register Name="Rx_RF_CTRL1" Group="RxBoard" IVIName="RfControl1"  Size="32">
+    <SPI>
+      <finger id="0">C_Rx_Input_EN</finger>
+      <finger id="1">C_Rx_Path_SEL</finger>
+      <finger id="2">C_Rx_Mixer_Thro_LF_SEL_V1</finger>
+      <finger id="3">C_Rx_Mixer_Thro_LF_SEL_V2</finger>
+      <finger id="4">C_Rx_Preamp1_V1_P</finger>
+      <finger id="5">C_Rx_Preamp1_V2_P</finger>
+      <finger id="6">C_Rx_Preamp1_V1_N</finger>
+      <finger id="7">C_Rx_Preamp1_V2_N</finger>
+      <finger id="8">C_Rx_Preamp2_LF_Thro_V1</finger>
+      <finger id="9">C_Rx_Preamp2_LF_Thro_V2</finger>
+      <finger id="10">C_Rx_Preamp2_EN_Thro_SEL_V1</finger>
+      <finger id="11">C_Rx_Preamp2_EN_Thro_SEL_V2</finger>
+      <finger id="12">C_Rx_ThroPath_Sel_V1</finger>
+      <finger id="13">C_Rx_ThroPath_Sel_V2</finger>
+      <finger id="14">C_Rx_Thro_IF_SEL</finger>
+      <finger id="15">C_Rx_PreFilters_BandSel_V1_P</finger>
+      <finger id="16">C_Rx_PreFilters_BandSel_V2_P</finger>
+      <finger id="17">C_Rx_PreFilters_HB1_V1_P</finger>
+      <finger id="18">C_Rx_PreFilters_HB1_V2_P</finger>
+      <finger id="19">C_Rx_PreFilters_HB1_V1_N</finger>
+      <finger id="20">C_Rx_PreFilters_HB1_V2_N</finger>
+      <finger id="21">C_Rx_PreFilters_HB2_V1_P</finger>
+      <finger id="22">C_Rx_PreFilters_HB2_V2_P</finger>
+      <finger id="23">C_Rx_PreFilters_HB2_V1_N</finger>
+      <finger id="24">C_Rx_PreFilters_HB2_V2_N</finger>
+      <finger id="25">C_Rx_PreFilters_BandSel_V1_N</finger>
+      <finger id="26">C_Rx_PreFilters_BandSel_V2_N</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U75">C_Rx_PreFilters_BandSel_V2_N|C_Rx_PreFilters_BandSel_V1_N</switch>
+      <switch Name="U68">C_Rx_PreFilters_HB2_V2_N|C_Rx_PreFilters_HB2_V1_N</switch>
+      <switch Name="U66">C_Rx_PreFilters_HB2_V2_P|C_Rx_PreFilters_HB2_V1_P</switch>
+      <switch Name="U69">C_Rx_PreFilters_HB1_V2_N|C_Rx_PreFilters_HB1_V1_N</switch>
+      <switch Name="U67">C_Rx_PreFilters_HB1_V2_P|C_Rx_PreFilters_HB1_V1_P</switch>
+      <switch Name="U65">C_Rx_PreFilters_BandSel_V2_P|C_Rx_PreFilters_BandSel_V1_P</switch>
+      <switch Name="U42">C_Rx_Thro_IF_SEL</switch>
+      <switch Name="U41">C_Rx_ThroPath_Sel_V2|C_Rx_ThroPath_Sel_V1</switch>
+      <switch Name="U50">C_Rx_Preamp2_EN_Thro_SEL_V2|C_Rx_Preamp2_EN_Thro_SEL_V1</switch>
+      <switch Name="U49">C_Rx_Preamp2_LF_Thro_V2|C_Rx_Preamp2_LF_Thro_V1</switch>
+      <switch Name="U48">C_Rx_Preamp1_V2_N|C_Rx_Preamp1_V1_N</switch>
+      <switch Name="U47">C_Rx_Preamp1_V2_P|C_Rx_Preamp1_V1_P</switch>
+      <switch Name="U43">C_Rx_Mixer_Thro_LF_SEL_V2|C_Rx_Mixer_Thro_LF_SEL_V1</switch>
+      <switch Name="U40">C_Rx_Path_SEL</switch>
+      <switch Name="U29">C_Rx_Input_EN</switch>
+    </control>
+  </register>
+  <register Name="Rx_RF_CTRL2" Group="RxBoard" IVIName="RfControl2"  Size="32">
+    <SPI>
+      <finger id="0">C_Rx_PreFilters_HB3_V1_P</finger>
+      <finger id="1">C_Rx_PreFilters_HB3_V2_P</finger>
+      <finger id="2">C_Rx_PreFilters_HB4_V1_P</finger>
+      <finger id="3">C_Rx_PreFilters_HB4_V2_P</finger>
+      <finger id="4">C_Rx_PreFilters_HB3_V1_N</finger>
+      <finger id="5">C_Rx_PreFilters_HB3_V2_N</finger>
+      <finger id="6">C_Rx_PreFilters_HB4_V1_N</finger>
+      <finger id="7">C_Rx_PreFilters_HB4_V2_N</finger>
+      <finger id="8">C_Rx_PreFilters_HB3_4_SEL</finger>
+      <finger id="9">C_Rx_LB1_2_Mixer_SEL_P_Sub</finger>
+      <finger id="10">C_Rx_LB1_2_Mixer_SEL_N_Sub</finger>
+      <finger id="11">C_Rx_PreFilters_LB2_V1_P_Sub</finger>
+      <finger id="12">C_Rx_PreFilters_LB2_V2_P_Sub</finger>
+      <finger id="13">C_Rx_PreFilters_LB2_V1_N_Sub</finger>
+      <finger id="14">C_Rx_PreFilters_LB2_V2_N_Sub</finger>
+      <finger id="15">C_Rx_PreFilters_LB1_V1_P_Sub</finger>
+      <finger id="16">C_Rx_PreFilters_LB1_V2_P_Sub</finger>
+      <finger id="17">C_Rx_PreFilters_LB1_V1_N_Sub</finger>
+      <finger id="18">C_Rx_PreFilters_LB1_V2_N_Sub</finger>
+      <finger id="19">C_Rx_PostLPF_V1_P</finger>
+      <finger id="20">C_Rx_PostLPF_V2_P</finger>
+      <finger id="21">C_Rx_PostLPF_V1_N</finger>
+      <finger id="22">C_Rx_PostLPF_V2_N</finger>
+      <finger id="23">C_Rx_LB_PostLPF_SEL_P</finger>
+      <finger id="24">C_Rx_LB_PostLPF_SEL_N</finger>
+      <finger id="25">C_Rx_LB_Mixer_SEL</finger>
+      <finger id="26">C_Rx_3rdMixer_RF_SEL</finger>
+      <finger id="27">C_Rx_all_Amp2_SEL_P</finger>
+      <finger id="28">C_Rx_all_Amp2_SEL_N</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U53">C_Rx_all_Amp2_SEL_N</switch>
+      <switch Name="U52">C_Rx_all_Amp2_SEL_P</switch>
+      <switch Name="U84">C_Rx_3rdMixer_RF_SEL</switch>
+      <switch Name="U83">C_Rx_LB_Mixer_SEL</switch>
+      <switch Name="U81">C_Rx_LB_PostLPF_SEL_N</switch>
+      <switch Name="U80">C_Rx_LB_PostLPF_SEL_P</switch>
+      <switch Name="U64">C_Rx_PostLPF_V2_N|C_Rx_PostLPF_V1_N</switch>
+      <switch Name="U63">C_Rx_PostLPF_V2_P|C_Rx_PostLPF_V1_P</switch>
+      <switch Name="U90">C_Rx_PreFilters_LB1_V2_N_Sub|C_Rx_PreFilters_LB1_V1_N_Sub</switch>
+      <switch Name="U89">C_Rx_PreFilters_LB1_V2_P_Sub|C_Rx_PreFilters_LB1_V1_P_Sub</switch>
+      <switch Name="U88">C_Rx_PreFilters_LB2_V2_N_Sub|C_Rx_PreFilters_LB2_V1_N_Sub</switch>
+      <switch Name="U87">C_Rx_PreFilters_LB2_V2_P_Sub|C_Rx_PreFilters_LB2_V1_P_Sub</switch>
+      <switch Name="U85">C_Rx_LB1_2_Mixer_SEL_N_Sub</switch>
+      <switch Name="U82">C_Rx_LB1_2_Mixer_SEL_P_Sub</switch>
+      <switch Name="U51">C_Rx_PreFilters_HB3_4_SEL</switch>
+      <switch Name="U74">C_Rx_PreFilters_HB4_V2_N|C_Rx_PreFilters_HB4_V1_N</switch>
+      <switch Name="U73">C_Rx_PreFilters_HB3_V2_N|C_Rx_PreFilters_HB3_V1_N</switch>
+      <switch Name="U72">C_Rx_PreFilters_HB4_V2_P|C_Rx_PreFilters_HB4_V1_P</switch>
+      <switch Name="U71">C_Rx_PreFilters_HB3_V2_P|C_Rx_PreFilters_HB3_V1_P</switch>
+    </control>
+  </register>
+  <register Name="Rx_RF_CTRL3" Group="RxBoard" IVIName="RfControl3"  Size="32">
+    <SPI>
+      <finger id="0">C_Rx_LF_PreAmp1_SEL_P</finger>
+      <finger id="1">C_Rx_LF_PreAmp1_SEL_N</finger>
+      <finger id="2">C_Rx_LF_PreAmp2_SEL_P</finger>
+      <finger id="3">C_Rx_LF_PreAmp2_SEL_N</finger>
+      <finger id="4">C_Rx_IF_OUTPUT_SEL</finger>
+      <finger id="5">C_Rx_LB_Mixer_IF_SEL</finger>
+      <finger id="6">C_Rx_IF_SEL_V1</finger>
+      <finger id="7">C_Rx_IF_SEL_V2</finger>
+      <finger id="8">C_Rx_Mixer_LO_LB_CTRL</finger>
+      <finger id="9">Reserved</finger>
+      <finger id="10">Reserved</finger>
+      <finger id="11">Reserved</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="U121">C_Rx_Mixer_LO_LB_CTRL</switch>
+      <switch Name="U104">C_Rx_IF_SEL_V2|C_Rx_IF_SEL_V1</switch>
+      <switch Name="U118">C_Rx_LB_Mixer_IF_SEL</switch>
+      <switch Name="U93">C_Rx_IF_OUTPUT_SEL</switch>
+      <switch Name="U97">C_Rx_LF_PreAmp2_SEL_N</switch>
+      <switch Name="U96">C_Rx_LF_PreAmp2_SEL_P</switch>
+      <switch Name="U95">C_Rx_LF_PreAmp1_SEL_N</switch>
+      <switch Name="U94">C_Rx_LF_PreAmp1_SEL_P</switch>
+    </control>
+  </register>
+  <register Name="Rx_ATT_CTRL1" Group="RxBoard" IVIName="AttControl1"  Size="32">
+    <SPI>
+      <finger id="0">C_Rx_AT8_1dB</finger>
+      <finger id="1">C_Rx_AT8_2dB</finger>
+      <finger id="2">C_Rx_AT8_4dB</finger>
+      <finger id="3">C_Rx_AT8_8dB</finger>
+      <finger id="4">C_Rx_AT8_16dB</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">C_Rx_AT9_1dB</finger>
+      <finger id="9">C_Rx_AT9_2dB</finger>
+      <finger id="10">C_Rx_AT9_4dB</finger>
+      <finger id="11">C_Rx_AT9_8dB</finger>
+      <finger id="12">C_Rx_AT9_16dB</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">C_Rx_AT10_1dB</finger>
+      <finger id="17">C_Rx_AT10_2dB</finger>
+      <finger id="18">C_Rx_AT10_4dB</finger>
+      <finger id="19">C_Rx_AT10_8dB</finger>
+      <finger id="20">C_Rx_AT10_16dB</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="AT10">C_Rx_AT10_16dB|C_Rx_AT10_8dB|C_Rx_AT10_4dB|C_Rx_AT10_2dB|C_Rx_AT10_1dB</switch>
+      <switch Name="AT9">C_Rx_AT9_16dB|C_Rx_AT9_8dB|C_Rx_AT9_4dB|C_Rx_AT9_2dB|C_Rx_AT9_1dB</switch>
+      <switch Name="AT8">C_Rx_AT8_16dB|C_Rx_AT8_8dB|C_Rx_AT8_4dB|C_Rx_AT8_2dB|C_Rx_AT8_1dB</switch>
+    </control>
+  </register>
+  <register Name="Rx_ATT_CTRL2" Group="RxBoard" IVIName="AttControl2"  Size="32">
+    <SPI>
+      <finger id="0">C_Rx_AT18_1dB</finger>
+      <finger id="1">C_Rx_AT18_2dB</finger>
+      <finger id="2">C_Rx_AT18_4dB</finger>
+      <finger id="3">C_Rx_AT18_8dB</finger>
+      <finger id="4">C_Rx_AT18_16dB</finger>
+      <finger id="5">Reserved</finger>
+      <finger id="6">Reserved</finger>
+      <finger id="7">Reserved</finger>
+      <finger id="8">C_Rx_AT19_1dB</finger>
+      <finger id="9">C_Rx_AT19_2dB</finger>
+      <finger id="10">C_Rx_AT19_4dB</finger>
+      <finger id="11">C_Rx_AT19_8dB</finger>
+      <finger id="12">Reserved</finger>
+      <finger id="13">Reserved</finger>
+      <finger id="14">Reserved</finger>
+      <finger id="15">Reserved</finger>
+      <finger id="16">Reserved</finger>
+      <finger id="17">Reserved</finger>
+      <finger id="18">Reserved</finger>
+      <finger id="19">Reserved</finger>
+      <finger id="20">Reserved</finger>
+      <finger id="21">Reserved</finger>
+      <finger id="22">Reserved</finger>
+      <finger id="23">Reserved</finger>
+      <finger id="24">Reserved</finger>
+      <finger id="25">Reserved</finger>
+      <finger id="26">Reserved</finger>
+      <finger id="27">Reserved</finger>
+      <finger id="28">Reserved</finger>
+      <finger id="29">Reserved</finger>
+      <finger id="30">Reserved</finger>
+      <finger id="31">Reserved</finger>
+    </SPI>
+    <control>
+      <switch Name="AT19">C_Rx_AT19_8dB|C_Rx_AT19_4dB|C_Rx_AT19_2dB|C_Rx_AT19_1dB</switch>
+      <switch Name="AT18">C_Rx_AT18_16dB|C_Rx_AT18_8dB|C_Rx_AT18_4dB|C_Rx_AT18_2dB|C_Rx_AT18_1dB</switch>
+    </control>
+  </register>
+</root>
